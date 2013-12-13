@@ -1,0 +1,33 @@
+body {
+	background: url("../img/scrolldown.png") no-repeat;
+	background-position: top left;
+}
+
+#weather img {
+	margin-left: 25px;
+	margin-top: -10px;
+	opacity: 0.6;
+}
+
+#content {
+	padding-left: 60px;
+}
+
+#content > div {
+	display: block;
+	float: left;
+}
+
+#hromadske {
+	height: 600px;
+}
+
+#info {
+	margin-left: 100px;
+	height: 215px;  /* 600 - 360 youtube video */
+}
+
+.twitter-bar {
+	width: 280px;
+	
+}
