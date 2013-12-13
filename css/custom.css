@@ -1,6 +1,8 @@
-body {
-	background: url("../img/scrolldown.png") no-repeat;
-	background-position: top left;
+#scroll {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	opacity: 0.1;
 }
 
 #weather img {
@@ -8,6 +10,11 @@ body {
 	margin-top: -10px;
 	opacity: 0.6;
 }
+
+#weather img:hover {
+	opacity: 1;
+}
+
 
 #content {
 	padding-left: 60px;
