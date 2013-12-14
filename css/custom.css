@@ -31,10 +31,17 @@
 
 #info {
 	margin-left: 100px;
+	margin-bottom: 4px;
+
 	height: 215px;  /* 600 - 360 youtube video */
 }
 
 .twitter-bar {
 	width: 280px;
 	
+}
+
+/* ukrapravda rss feed hack */
+.fg_wid_header {
+	text-align: center;
 }
