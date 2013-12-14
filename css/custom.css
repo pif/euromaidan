@@ -31,7 +31,7 @@
 
 #info {
 	margin-left: 100px;
-	margin-bottom: 4px;
+	margin-bottom: 9px;
 
 	height: 215px;  /* 600 - 360 youtube video */
 }
@@ -44,4 +44,26 @@
 /* ukrapravda rss feed hack */
 .fg_wid_header {
 	text-align: center;
+}
+
+#info h1 {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+#info h3 {
+	margin-top: 0em;
+	margin-bottom: 0em;
+}
+
+#info ul {
+	margin-top: 0.2em;
+}
+
+#share-widgets {
+	opacity: 0.5;
+}
+
+#share-widgets:hover {
+	opacity: 1;
 }
